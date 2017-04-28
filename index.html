@@ -12,32 +12,90 @@
 <!-- CSS  -->
 <style>
 img {
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 div{
   border-radius: 8px;
-  margin-top: 20px;
+
 }
+
+div.bigbox{
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.imageVeil {
+  margin: 10px;
+}
+
+
 </style>
 
 
 
 <body>
 <!-- Main Well -->
-<div class="container jumbotron" id="bigbox">
+<div class="container jumbotron bigbox" id="bigbox">
+  <!-- 1st Row -->
+  <div class="row" id="topHeaderRow">
   <h1>Natasja Saad</h1>
-  <p>The artist that you've all heard, but do not know.</p>
+  <p>The artist that you've all heard, but never knew.</p>
+</div>
 
   <!-- Main Image -->
-<img class="img-responsive " src="images/Natasja-Saad-black-wide-large.jpg" alt="Natasja Saad wearing a black veil">
+<div class="row imageVeil" id="row2">
+<img class="img-responsive" src="images/Natasja-Saad-black-wide-large.jpg" alt="Natasja Saad wearing a black veil">
+</div>
   <!-- Short Bio -->
 
-  <!-- My Favorites -->
+<div class="row" id="row3">
+  <h4>Bio</h4>
+</div>
+
 
 
   <!-- Discography  -->
-  <h4>Albums</h4>
+
+  <div class="row" id="row5">
+
+    <!-- left colum  -->
+<div class="col-xs-6">
+    <h4>Albums</h4>
+    <ul>
+      <li>2005: Release Album (Playground Music) </li>
+      <li>2007: I Danmark er jeg Født (In Denmark I am Born) (Playground Music)
+  </li>
+      <li>2008: Shooting Star (Playground Music) released after her death</li>
+      <li>2013: Gi os Christiania tilbage released after her death </li>
+  </ul>
+
+
+    <h4>Singles</h4>
+  <ul>
+    <li>2003: "Colors of My Mind" 12" (Mega Records)</li>
+    <li>  2003: "Real Sponsor" 12" (Food Palace Music)</li>
+    <li>  2004: "Summer Cute" 7" (Food Palace Music)</li>
+    <li>  2004: "My Dogg /45 Questions" (Tuff Gong Distr.)</li>
+    <li>  2005: "Op med Hovedet (Up with the Head)" CD single (Copenhagen Records)</li>
+    <li>  2005: "Købmanden (The Grocer)" (BMG)</li>
+    <li>  2006: "Mon De Reggae"</li>
+    <li>  2007: "Calabria 2007" (with Enur)</li>
+    <li>  2007: "Long Time" 7" (Sly & Robbie)</li>
+    <li>  2007: "Gi' Mig Danmark Tilbage (Give Me Denmark Back)"</li>
+    <li>  2008: "I Danmark er jeg født (In Denmark I am born)"</li>
+    <li>  2008: "Better than dem (ft Beenie Man)"</li>
+    <li>  2008: "Fi Er Min (Fi Is Mine)"</li>
+    <li>  2008: "Ildebrand I Byen (Fire In the City)"</li>
+    <li>  2008: "Dig og Mig (You and Me)"</li>
+  </ul>
+</div>
+
+<!-- Right Collum  -->
+<!-- My Favorites -->
+<div class="col-xs-6" id="favorites">
+  <h4>My Personal Favorites</h4>
   <ul>
     <li>2005: Release Album (Playground Music) </li>
     <li>2007: I Danmark er jeg Født (In Denmark I am Born) (Playground Music)
@@ -45,27 +103,10 @@ div{
     <li>2008: Shooting Star (Playground Music) released after her death</li>
     <li>2013: Gi os Christiania tilbage released after her death </li>
 </ul>
+</div>
 
-
-  <h4>Singles</h4>
-<ul>
-  <li>2003: "Colors of My Mind" 12" (Mega Records)</li>
-  <li>  2003: "Real Sponsor" 12" (Food Palace Music)</li>
-  <li>  2004: "Summer Cute" 7" (Food Palace Music)</li>
-  <li>  2004: "My Dogg /45 Questions" (Tuff Gong Distr.)</li>
-  <li>  2005: "Op med Hovedet (Up with the Head)" CD single (Copenhagen Records)</li>
-  <li>  2005: "Købmanden (The Grocer)" (BMG)</li>
-  <li>  2006: "Mon De Reggae"</li>
-  <li>  2007: "Calabria 2007" (with Enur)</li>
-  <li>  2007: "Long Time" 7" (Sly & Robbie)</li>
-  <li>  2007: "Gi' Mig Danmark Tilbage (Give Me Denmark Back)"</li>
-  <li>  2008: "I Danmark er jeg født (In Denmark I am born)"</li>
-  <li>  2008: "Better than dem (ft Beenie Man)"</li>
-  <li>  2008: "Fi Er Min (Fi Is Mine)"</li>
-  <li>  2008: "Ildebrand I Byen (Fire In the City)"</li>
-  <li>  2008: "Dig og Mig (You and Me)"</li>
-</ul>
-
+  </div>
+  <!-- EOF Row 5 -->
 
 
 </div>
